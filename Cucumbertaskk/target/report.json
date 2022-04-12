@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 60922249,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user must be in  saucedemo page",
+            "match": {
+              "location": "Steps.the_user_must_be_in_saucedemo_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-12T11:01:53.482Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12269706786,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To  validate cart functions",
+        "description": "",
+        "id": "to-validate-the-login-functionaly-of-saucedemo-application;to--validate-cart-functions",
+        "after": [
+          {
+            "result": {
+              "duration": 922498632,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5962650206,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should login to application",
+            "match": {
+              "location": "Steps.the_user_should_login_to_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 993972886,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user must add the products in the cart",
+            "match": {
+              "location": "Steps.the_user_must_add_the_products_in_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 215381873,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To validate the product added to the cart is correct or incorrect",
+            "match": {
+              "location": "Steps.to_validate_the_product_added_to_the_cart_is_correct_or_incorrect()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sc1"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionaly of saucedemo application",
+    "description": "",
+    "id": "to-validate-the-login-functionaly-of-saucedemo-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
